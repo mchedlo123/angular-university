@@ -1,0 +1,13 @@
+<div class="top-menu">
+    <img class="logo"
+         src="https://angular-academy.s3.amazonaws.com/main-logo/main-page-logo-small-hat.png">
+</div>
+<div class="courses">
+  <h1>sad xar</h1>
+  <course-card (courseSelected)="onCourseSelected($event)" [course]="rxjsCourse"></course-card>
+  <course-card [course]="ngrxCourse" ></course-card>
+  <course-card  [course]="coreCourse"></course-card>
+
+</div>
+
+
